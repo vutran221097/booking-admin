@@ -1,0 +1,35 @@
+.new-form .card.title {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    color: grey;
+}
+
+.new-form .card.form {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+.new-form .form-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-form .form-layout input {
+    border: none;
+    border-bottom: 2px solid grey;
+    border-radius: 0;
+}
+
+.new-form .form-layout .w-45{
+    width: 45%;
+}
+
+.new-form .form-layout input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.new-form .form-layout .btn{
+    height: 3rem;
+    margin-top: 3rem;
+}

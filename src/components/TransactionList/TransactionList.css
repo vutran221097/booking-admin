@@ -1,0 +1,42 @@
+.transaction-list table{
+    border: 1px solid #D2D2D2;
+}
+
+.transaction-list table td,
+.transaction-list table th,
+.transaction-list table tr {
+    border-bottom: 1px solid #D2D2D2;
+    padding: 0.5rem;
+}
+
+.transaction-list table th{
+    font-weight: 500;
+}
+
+
+.transaction-items .payment {
+    text-transform: capitalize;
+}
+
+.transaction-items .status {
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    color: #1A8334;
+}
+
+.transaction-items .checkin {
+    background-color: #3AD139;
+}
+
+.transaction-items .checkout {
+    background-color: #D3D0F2;
+}
+
+.transaction-items .booked {
+    background-color: #F69685;
+}
+
+.transaction-list .action .icon{
+    cursor: pointer;
+}

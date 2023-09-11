@@ -1,0 +1,33 @@
+.user-list table {
+    border: 1px solid #D2D2D2;
+}
+
+.user-list table td,
+.user-list table th,
+.user-list table tr {
+    border-bottom: 1px solid #D2D2D2;
+    padding: 0.5rem;
+}
+
+.user-list table th {
+    font-weight: 500;
+}
+
+.user-list .action .icon {
+    cursor: pointer;
+}
+
+.user-items .delete-btn {
+    border: 1px dashed red;
+    text-align: center;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+
+.user-list .add-btn {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+}

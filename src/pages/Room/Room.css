@@ -1,0 +1,41 @@
+.room-list table {
+    border: 1px solid #D2D2D2;
+}
+
+.room-list table td,
+.room-list table th,
+.room-list table tr {
+    border-bottom: 1px solid #D2D2D2;
+    padding: 0.5rem;
+}
+
+.room-list table th {
+    font-weight: 500;
+}
+
+.room-list .action .icon {
+    cursor: pointer;
+}
+
+.room-items .delete-btn {
+    border: 1px dashed red;
+    text-align: center;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.room-items .edit-btn {
+    border: 1px dashed lightblue;
+    text-align: center;
+    border-radius: 5px;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.room-list .add-btn {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}
