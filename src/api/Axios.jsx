@@ -4,7 +4,7 @@ import { logOut } from "../reducer/authReducer";
 
 const Axios = axios.create({
   // Configuration
-  baseURL: "http://localhost:5000"
+  baseURL: "https://booking-server-m3vf.onrender.com"
 });
 
 //validate response

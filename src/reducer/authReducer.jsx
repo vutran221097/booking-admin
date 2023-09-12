@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import Cookies from "universal-cookie";
-import Axios from "../../../../Ass 3/AdminApp/src/api/Axios";
+import Axios from "../api/Axios"
 const cookies = new Cookies()
 
 const initialState = {

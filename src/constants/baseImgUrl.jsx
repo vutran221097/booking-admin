@@ -1,1 +1,1 @@
-export const baseImgUrl = "http://localhost:5000/images"
+export const baseImgUrl = "https://booking-server-m3vf.onrender.com/images"
