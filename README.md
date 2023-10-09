@@ -1,72 +1,84 @@
-# Getting Started with Create React App
+# Booking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Booking App
+A simple booking hotel website. You can view all hotel by Type or City and Rating. Login and place order for your vacation. When you come to Admin page, you can manage hotel and room and view all transactions. The demo apps was deployed on Render and Firebase.
 
-## Available Scripts
+## Technologies
+Technologies used: MongoDB, Express, ReactJS, NodeJS, React Router, Redux toolkit.
 
-In the project directory, you can run:
+## Launch demo
 
-### `npm start`
+\*Note: Please open link back-end first.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ClientApp (Firebase) : [Link](https://booking-client-7b598.web.app/)
+- AdminApp (Firebase) : [Link](https://booking-admin-9eed8.web.app/)
+- Back-end (Render) : [Link](https://booking-server-m3vf.onrender.com/)
+- Client Account: account: user , password: 123456
+- Admin Account: account: admin , password: 123456
+## Project Breakdown
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Server
 
-### `npm test`
+- Directory: Server
+- Features:
+  - [x] Building api server (MVC model) - CRUD operations
+  - [x] Generating schema models
+  - [x] JWT Authentication
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Client App
 
-### `npm run build`
+- Directory: Client
+- Features:
+  - [x] Home page, Login/sign up page
+  - [x] Hotel page by type, Hotel page by city
+  - [x] Booking page, Transaction page,Checkout page
+  - [x] Show / hide room booked
+  - [x] View all transactions history
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Admin App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Directory: Admin
+- Features:
+  - [x] Login page - authenticate for role admin
+  - [x] Dashboard to summarize data
+  - [x] Show all transactions 
+  - [x] Create/Update/Delete hotel/room
+  - [x] Cancel delete hotel/room if it booked
+  - [x] Update transaction status every time 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Node version
 
-### `npm run eject`
+- Node -v 18.17.1
+- Npm -v 9.6.7
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Source code
+- ClientApp: https://github.com/vutran221097/booking-client
+- AdminApp: https://github.com/vutran221097/booking-admin
+- ServerApp: https://github.com/vutran221097/booking-server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Clone or download the `Booking App` from source code
+#### Client-side usage(PORT: 3000)
+- Url: http://localhost:3000
+- Change backend url to http://localhost:5000 in config.server.js if you want to run local
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+$ yarn # or npm i    // npm install packages
+$ npm start       // run it locally
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Admin usage(PORT: 3001)
+- Url: http://localhost:3001
+- Change backend url to http://localhost:5000 in config.server.js if you want to run local
 
-## Learn More
+```
+$ yarn # or npm i    // npm install packages
+$ npm start       // run it locally
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Server-side usage(PORT: 5000)
+- Url: http://localhost:5000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# booking-admin" 
-"# booking-admin" 
+```
+$ npm i       // npm install packages
+$ npm start // run it locally
+```
